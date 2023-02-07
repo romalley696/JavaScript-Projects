@@ -20,8 +20,8 @@ document.write("<br><br>i am trying to link a concatenated string <br>" // using
 +C
 +"<br><br>")
 
-var family="O\'Malley", dad="Richard", mum="Natalie", son1="Brendon", //defining variables
-son2="Connor", daughter="Melissa", son3="Liam";
+var family="O\'Malley", dad="Richard", mum="Babs", son1="Bob", //defining variables
+son2="Cal", daughter="Mel", son3="Leo";
 var family = family.fontcolor("green"); //colouring variables
 var dad=dad.fontcolor("red");
 var son1=son1.fontcolor("green")
@@ -38,7 +38,4 @@ document.write(8+2) //using expressions
 
 document.write("<br><br>") //spacing
 
-let num1="13"; //defining variables
-let num2="23";
-let sum = num1 + num2;
-document.write(sum); //using variables using expressions
+
