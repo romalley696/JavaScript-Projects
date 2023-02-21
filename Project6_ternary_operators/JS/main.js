@@ -30,3 +30,34 @@ function count_Function(){
     return Starting_point;
   }
 }
+
+var x = 5;
+function Add_numbers_1() {
+  document.write (5 + x + "<br>");
+}
+function Add_numbers_2() {
+  document.write (x + 50 + "<br>");
+}
+Add_numbers_1 ();
+Add_numbers_2 ();
+
+
+function Add_numbers_3() {
+  var y = 15
+  document.write (5 + y + "<br>");
+}
+function Add_numbers_4() {
+  document.write (y + 50 + "<br>");
+}
+Add_numbers_3 ();
+Add_numbers_4 ();
+
+function Add_numbers_5() {
+  var z = 10
+  console.log (5 + z + "<br>");
+}
+function Add_numbers_6() {
+  console.log (z + 90 + "<br>");
+}
+Add_numbers_5 ();
+Add_numbers_6 ();
