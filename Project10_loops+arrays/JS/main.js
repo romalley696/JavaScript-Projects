@@ -51,10 +51,12 @@ document.write(X);
 document.write("<br>" + X);
 
 //---let and return
+function car_info() {
 let car = {
   make: "Ford ", model: "Focus ", year: "2013 ", colour: "silver ",
   description: function() {
     return "the car is a " + this.year + this.colour + this.make + this.model;
+    }
   }
-};
+}
 document.getElementById("Car_Object").innerHTML = car.description();
