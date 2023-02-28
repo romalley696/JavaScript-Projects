@@ -1,4 +1,5 @@
-function Call_Loop() {
+//---counting loop
+function Call_Loop() { 
   var Digit = "";
   var X = 1;
   while (X<6) {
@@ -8,6 +9,7 @@ function Call_Loop() {
   document.getElementById("Loop").innerHTML = Digit;
 }
 
+//---for loop
 var Instruments = ["guitar", "drums", "piano", "trumpet"];
 var Content = "";
 var Y;
@@ -19,6 +21,7 @@ function for_Loop() {
   document.getElementById("List").innerHTML = Content;
 }
 
+//---using array
 function array_function() {
   var family_ages = []
   family_ages[0] = "3";
@@ -30,6 +33,7 @@ function array_function() {
   document.getElementById("array").innerHTML = "this member of the family is " + family_ages[4] + " years old";
 }
 
+//---using constant 
 function constant_function() {
   const Musical_instrument = {type:"guitar", brand:"fender", color:"black"};
   Musical_instrument.color = "blue";
@@ -37,6 +41,7 @@ function constant_function() {
   document.getElementById("constant").innerHTML = "The cost of the " + Musical_instrument.type + " was " + Musical_instrument.price;
 }
 
+//---let function
 var X = 26;
 document.write(X);
 {
@@ -45,6 +50,7 @@ document.write(X);
 }
 document.write("<br>" + X);
 
+//---let and return
 let car = {
   make: "Ford ", model: "Focus ", year: "2013 ", colour: "silver ",
   description: function() {
