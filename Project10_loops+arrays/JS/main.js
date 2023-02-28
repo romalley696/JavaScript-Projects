@@ -58,5 +58,5 @@ let car = {
     return "the car is a " + this.year + this.colour + this.make + this.model;
     }
   }
-}
 document.getElementById("Car_Object").innerHTML = car.description();
+}
