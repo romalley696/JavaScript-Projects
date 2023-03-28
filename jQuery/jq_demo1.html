@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>jQuery Demo</title>
+		<meta charset="utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    </head>
+
+	
+        <script>
+
+            jQuery(document).ready(function() {
+                jQuery("html").append(
+                "<body>\
+                    <div id='container'>\
+                        <div id='inner'>\
+                            <h1>Basic jQuery</h1>\
+                            <p id='1'>Header be back</p>\
+                            <p id='2'>this is red</p>\
+                            <p id='3'>Header be gone</p>\
+                        </div>\
+                    </div>\
+                </body>"
+                );
+                $("#2").css({"color":"red"});
+                $("#3").click(function() {
+                    $('h1').hide("slow");
+                });
+                $("#1").click(function() {
+                    $('h1').show("fast");
+                });
+                
+
+            });
+
+
+        </script>
+
+    
+</html>
