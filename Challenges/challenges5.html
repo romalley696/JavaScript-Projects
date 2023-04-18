@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>CHALLENGES</title>
+		<link rel="stylesheet" type="text/css" href="./Challenges.css">
+		<script src="./challenges.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	</head>
+
+
+	<body>
+		<script>
+			document.body.classList.add('fade-out');
+		</script>
+		
+		<h1 style="font-size:10vw;">I Love Christmas</h1>
+
+		<div class="IMG">
+			<img src="./snowflake.jpg">
+		</div>
+		
+		
+		<!-- A button to open the popup form -->
+		<button class="open-button" onclick="openForm()">Do you love Christmas?</button>
+
+		<!-- The form -->
+		<div class="form-popup" id="myForm">
+  			<form action="/action_page.php" class="form-container">
+    			<h1>Login</h1>
+
+    			<label for="email"><b>Email</b></label>
+    			<input type="text" placeholder="Enter Email" name="email" required>
+
+    			<label for="psw"><b>Password</b></label>
+    			<input type="password" placeholder="Enter Password" name="psw" required>
+
+    			<button type="submit" class="btn">Login</button>
+    			<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  			</form>
+		</div> 
+
+		<p style="font-size:6vw;">
+			I love Christmas,
+			<br> it is in 82 days!
+			&pound;
+			&#163;
+		</p>
+
+		<div id="slideshow">
+			<div>
+			  <img src="./Santa2.jpg" height="200" width="200">
+			</div>
+			<div>
+			  <img src="./rudolph.jpg"height="200" width="200">
+			</div>
+			<div>
+			  I do love christmas
+			</div>
+		</div>
+
+		
+
+
+		<script>
+			window.addEventListener('DOMContentLoaded',()=>{
+				document.body.classList.remove('fade-out');
+			});
+		</script>
+	</body>
+</html>
+	
+			
