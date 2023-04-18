@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>RJO_Malley</title>
+        <link rel="stylesheet" type="text/css" href="./CSS/portfolio.css">
+        <script src="./JS/portflio.js"></script>
+        
+    </head>
+
+    <!--Body-->
+    <body class="Background">
+        
+        <!--Navbar-->
+        <div class="Navbar">
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+       
+        <br>
+        <br>
+
+        <!-----Top Image----->
+        <div id="Home">
+            <img class="firstimg" src="./images/workstation.jpg" id="firstimg" alt="IMG">
+                      
+            </img>
+        </div>
+
+        <div class="Img_text">
+            <h1 class="white-text">R J O'Malley</h1>
+            <strong>
+                <p class="center">
+                    <q>To Accomplish Great Things We Must Not Only Act,
+                        <br>But Also Dream, Not Only Plan But Also Believe.
+                    </q>
+                    
+                    <br>
+                    <br>Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                    <br>
+                   
+                </p>
+            </strong>
+        </div>
+
+        <!-----the slideshow----->
+        <div id="Slideshow">
+            <div id="Slideshow_Background"> 
+                <div id="Slideshow_Container">
+                    
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="./images/businessman.webp" alt="Picture of yourself">
+                        <div class="text">I'm available to assist you on your project!</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="./images/HTML.png" alt="HTML, CSS, and JS logos"> 
+                        <div class="text">I am a full-stack software developer,<br> trained in:<br>HTML, CSS, JavaScript,</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="./images/coding.jpg" alt="Python logo">
+                        <div class="text">Contact me for more information</div>
+                    </div>
+                    
+                    <!-- Previous and next buttons -->
+                    <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="Next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br> <!-- Adds a space between the slideshow images and the dots -->
+
+                <!-- Slideshow dots (these are another way for users to navigate through the slideshow) -->
+                <div style="text-align: center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                     
+                </div>
+            </div>
+        </div>
+
+        <!----About---->
+        <div class="Row" id="About">
+           
+            <div class="Column_2">
+                <img src="./images/Laptop.jpg" alt="Laptop">
+            </div>
+            
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I have experience in many sectors from the Building industry, Leisure Industry and now in the Technology Industry, with that time experience follows, which has helped me personally and professionally
+                    <br>
+                    <br>I am currently studying at <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Web and Software Developer Boot Camp,
+                     and so far I am trained and experienced in the following web and programming languages: HTML, CSS. 
+                     I am also trained to use other programs such as GitHub, Microsoft's Small Basic, Filezilla and more.
+                    <br>
+                    <br>I am still learning and would like the opportunity to work with you on your project. <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!----Project----->
+        <div class="Row" id="Projects">
+           
+            <div class="Column_1">
+                <img src="./images/Planning.jpg" alt="planning"></a>
+            </div>
+            
+            <div class="Column_2">
+                <h1>Projects</h1>
+                <p>
+                    You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <a href="https://github.com/romalley696" target="_blank">R J O'Malley GitHub</a>
+                    <br>
+                    <br>
+                    As a father of four I also enjoy playing games like Minecraft with them, check out some of our creations:
+                    <br>
+                    <a href="https://www.planetminecraft.com/member/o_blocks/submissions" target="_blank">R J O'Malley Planet Minecraft</a>
+                
+                
+                </p>
+                
+            </div>
+        </div>
+
+        <!----Contact ---->
+        <div class="Row" id="Contact">
+            
+            <div class="Column_2 Column_tall">
+                <img src="./images/email.jpg" alt="Contact_Image">
+            </div>
+            
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+
+                <button onclick="openForm()" class="Pop_Up_Button">CONTACT ME</button>
+                <div class="form-popup" id="myForm">
+
+                
+                    <form action="https://formspree.io/f/mqkoavry" method="POST" class="form-container"> 
+                        <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+
+                        <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                        
+                        <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                            
+                        <button type="submit" class="btn">SUBMIT</button>
+                        <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-----Footer---->
+        <footer>
+            <p>
+                <p class="center"> RJO@thedragonreawakens &copy</p>
+                <br>
+            </p>
+        </footer>
+
+        <script src="./JS/portflio.js"></script>
+    </body>
+</html>
